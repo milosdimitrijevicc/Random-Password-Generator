@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Random Password Generator</title>
+</head>
+<body>
+
+  <video src="img/video.mp4" autoplay loop> </video>
+  
+  <div class="container">
+  <h1>Random Password Generator</h1>
+
+  <p class="paragraph">Create strong and secure passwords to keep your account safe online.</p>
+
+  <div class="input">
+    <input type="text" class="passwordPreview">
+    <div class="passwordGenerator"></div>
+  </div>
+
+  <div class="password">
+    <label for="numberOfChars">Password length:</label>
+    <input type="number" min="1" max="8" value="1" id="numberOfChars">
+  </div>
+
+  <div class="options">
+    <label for="charsUsed">Characters used:</label>
+  
+    <input type="checkbox" class="upperCase" id="radio">
+    <label for="upperCase" class="labels">ABC</label>
+  
+    <input type="checkbox" class="loweCase" id="radio">
+    <label for="loweCase" class="labels">abc</label>
+  
+    <input type="checkbox" class="numbers" id="radio">
+    <label for="numbers" class="labels">123</label>
+  
+    <input type="checkbox" class="symbols" id="radio">
+    <label for="symbols" class="labels">!$&</label>
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>  
+</body>
+</html>
